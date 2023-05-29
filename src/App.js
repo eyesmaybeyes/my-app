@@ -7,7 +7,7 @@ export const data = [
   ["Task", "Hours per Day"],
   ["Work", 11],
   ["Eat", 2],
-  ["Commute", 2],
+  ["Communicate", 2],
   ["Play computer games", 2],
   ["Sleep", 7],
 ];
@@ -23,7 +23,7 @@ export function App() {
       data={data}
       options={options}
       width={"100%"}
-      height={"400px"}
+      height={"100vh"}
     />
   );
 }
